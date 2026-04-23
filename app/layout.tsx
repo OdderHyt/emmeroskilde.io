@@ -27,7 +27,33 @@ export default function RootLayout({
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+          <nav>
+            <ul className="flex space-x-4 p-4 bg-gray-100 justify-center">
+              <li>
+                <a href="/" className="text-blue-500 hover:underline">
+                  Forside
+                </a>
+              </li>
+              <li>
+                <a href="/frisør" className="text-blue-500 hover:underline">
+                  Book Frisør
+                </a>
+              </li>
+              <li>
+                <a href="/kosmetikker" className="text-blue-500 hover:underline">
+                  Book Kosmetikker
+                </a>
+              </li>
+              <li>
+                <a href="/about" className="text-blue-500 hover:underline">
+                  Om os
+                </a>
+              </li>
+            </ul>
+          </nav>
+          {children}
+        </body>
     </html>
   );
 }
