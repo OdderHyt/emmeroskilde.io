@@ -36,7 +36,7 @@ export default function RootLayout({
                 </a>
               </li>
               <li>
-                <a href="/frisør" className="text-blue-500 hover:underline">
+                <a href="/frisoer" className="text-blue-500 hover:underline">
                   Book Frisør
                 </a>
               </li>
