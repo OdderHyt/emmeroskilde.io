@@ -28,6 +28,9 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <p className="text-center text-9xl text-gray-500 py-4">
+          EMMÉ
+        </p>
           <nav>
             <ul className="flex space-x-4 p-4 bg-gray-100 justify-center">
               <li>
